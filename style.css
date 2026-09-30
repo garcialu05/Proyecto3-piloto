@@ -1,0 +1,144 @@
+/* =========================
+   CONFIGURACIÓN GENERAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #222;
+    min-height: 100vh;
+}
+
+
+/* =========================
+   ENCABEZADO
+========================= */
+
+header {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #d1d5db;
+}
+
+
+/* =========================
+   CONTENIDO PRINCIPAL
+========================= */
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+
+/* =========================
+   TARJETAS DE PILOTOS
+========================= */
+
+.contenedor-pilotos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card-piloto {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+
+    /* Esta propiedad será modificada en la iteración 3.2 */
+}
+
+.card-piloto h2 {
+    margin-bottom: 10px;
+}
+
+.equipo {
+    color: #555;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   ESTADÍSTICAS
+========================= */
+
+.estadisticas {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.estadisticas p {
+    margin: 10px 0;
+    padding: 8px;
+    background-color: #f3f4f6;
+    border-radius: 6px;
+}
+
+
+/* =========================
+   BOTÓN
+========================= */
+
+.controles {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#btnCambio {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btnCambio:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* =========================
+   AVISO
+========================= */
+
+#aviso {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   PIE DE PÁGINA
+========================= */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111827;
+    color: white;
+    margin-top: 50px;
+}
